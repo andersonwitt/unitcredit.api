@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DgDOQC/xHLX9BMySH5Ozl56gopjqHL0ybp/v/laANx0CVNoenp5qhC071BxrRIU69wGI2Q0C3JASEi39PzQAcg==",
+  "dgSpecHash": "FrWLYiMCHmK0XmelaVbSWFwkoB0xdXZ8g47NmW5zT6hqCgRQn7wVuA3wYKFjnapObIEZUwKEvUWt7iMW9aBz0w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Anderson\\Documents\\projects\\faculdade\\1-fase\\fundamentos-matematicos\\unitcredit.api\\Api.Data.Test\\Api.Data.Test.csproj",
+  "projectFilePath": "c:\\Users\\Anderson\\Documents\\projects\\faculdade\\1-fase\\fundamentos-matematicos\\unitcredit.api\\Api.Data.Test\\Api.Data.Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Anderson\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\Anderson\\.nuget\\packages\\microsoft.codecoverage\\17.1.0\\microsoft.codecoverage.17.1.0.nupkg.sha512",

@@ -7,14 +7,55 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "CrossCutting/1.0.0": {
+        "dependencies": {
+          "Data": "1.0.0",
+          "Service": "1.0.0"
+        },
         "runtime": {
           "CrossCutting.dll": {}
+        }
+      },
+      "Data/1.0.0": {
+        "dependencies": {
+          "Domain": "1.0.0"
+        },
+        "runtime": {
+          "Data.dll": {}
+        }
+      },
+      "Domain/1.0.0": {
+        "runtime": {
+          "Domain.dll": {}
+        }
+      },
+      "Service/1.0.0": {
+        "dependencies": {
+          "Data": "1.0.0",
+          "Domain": "1.0.0"
+        },
+        "runtime": {
+          "Service.dll": {}
         }
       }
     }
   },
   "libraries": {
     "CrossCutting/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Service/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
