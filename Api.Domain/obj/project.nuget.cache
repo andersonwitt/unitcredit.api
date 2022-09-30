@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zV5jF9wjJHdZxTA+x6ANSaEEH7KpoftOmx+Yz2R4w2aBWj0wkFWRyokWAe9G7XmPlbGHL6Wi12AscmJphTxVqA==",
+  "dgSpecHash": "LYY+cGR53ilYt0jJ0xsS0pkE+oIMAHvhcwAXfFg0k5c3i09CKryzg1lhVTE5LrOhu/amkvoSll/2Xya8pfVu9w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Anderson\\Documents\\projects\\faculdade\\1-fase\\fundamentos-matematicos\\unitcredit.api\\Api.Domain\\Domain.csproj",
+  "projectFilePath": "c:\\Users\\Anderson\\Documents\\projects\\faculdade\\1-fase\\fundamentos-matematicos\\unitcredit.api\\Api.Domain\\Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

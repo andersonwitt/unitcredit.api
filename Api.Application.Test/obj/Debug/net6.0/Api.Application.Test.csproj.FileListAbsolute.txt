@@ -113,3 +113,12 @@ C:\Users\Anderson\Documents\projects\faculdade\1-fase\fundamentos-matematicos\un
 C:\Users\Anderson\Documents\projects\faculdade\1-fase\fundamentos-matematicos\unitcredit.api\Api.Application.Test\obj\Debug\net6.0\Api.Application.Test.pdb
 C:\Users\Anderson\Documents\projects\faculdade\1-fase\fundamentos-matematicos\unitcredit.api\Api.Application.Test\obj\Debug\net6.0\Api.Application.Test.genruntimeconfig.cache
 C:\Users\Anderson\Documents\projects\faculdade\1-fase\fundamentos-matematicos\unitcredit.api\Api.Application.Test\obj\Debug\net6.0\ref\Api.Application.Test.dll
+C:\Users\Anderson\Documents\projects\faculdade\1-fase\fundamentos-matematicos\unitcredit.api\Api.Application.Test\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Anderson\Documents\projects\faculdade\1-fase\fundamentos-matematicos\unitcredit.api\Api.Application.Test\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Anderson\Documents\projects\faculdade\1-fase\fundamentos-matematicos\unitcredit.api\Api.Application.Test\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Anderson\Documents\projects\faculdade\1-fase\fundamentos-matematicos\unitcredit.api\Api.Application.Test\bin\Debug\net6.0\Npgsql.dll
+C:\Users\Anderson\Documents\projects\faculdade\1-fase\fundamentos-matematicos\unitcredit.api\Api.Application.Test\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\Anderson\Documents\projects\faculdade\1-fase\fundamentos-matematicos\unitcredit.api\Api.Application.Test\bin\Debug\net6.0\Data.dll
+C:\Users\Anderson\Documents\projects\faculdade\1-fase\fundamentos-matematicos\unitcredit.api\Api.Application.Test\bin\Debug\net6.0\Service.dll
+C:\Users\Anderson\Documents\projects\faculdade\1-fase\fundamentos-matematicos\unitcredit.api\Api.Application.Test\bin\Debug\net6.0\Data.pdb
+C:\Users\Anderson\Documents\projects\faculdade\1-fase\fundamentos-matematicos\unitcredit.api\Api.Application.Test\bin\Debug\net6.0\Service.pdb
