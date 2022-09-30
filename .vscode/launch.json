@@ -20,7 +20,8 @@
                 "pattern": "\\bNow listening on:\\s+(https?://\\S+)"
             },
             "env": {
-                "ASPNETCORE_ENVIRONMENT": "Development"
+                "ASPNETCORE_ENVIRONMENT": "Development",
+                "DB_CONNECTION": "Server=localhost;Port=5432;User Id=postgres;Password=root;Database=nextDb;"
             },
             "sourceFileMap": {
                 "/Views": "${workspaceFolder}/Views"

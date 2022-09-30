@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xPC1yvCbv8pn1ke+8CBHqE1k+4wPaIuRk5G7swAw0WahA0/3TT+LQzvmihNPQMcshUQmQB6A9aINkgWnOkG39Q==",
+  "dgSpecHash": "Fo3EVzjTJASn6fQQFKI4IZvIdKivVVOkPDtecgiymttZbOPA38nddBOtqYaqF6nlahOWf8Npd0I1oi5Dv4xvJA==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Anderson\\Documents\\projects\\faculdade\\1-fase\\fundamentos-matematicos\\unitcredit.api\\Api.Service\\Service.csproj",
+  "projectFilePath": "C:\\Users\\Anderson\\Documents\\projects\\faculdade\\1-fase\\fundamentos-matematicos\\unitcredit.api\\Api.Service\\Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Anderson\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.10\\microsoft.entityframeworkcore.5.0.10.nupkg.sha512",
     "C:\\Users\\Anderson\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.10\\microsoft.entityframeworkcore.abstractions.5.0.10.nupkg.sha512",

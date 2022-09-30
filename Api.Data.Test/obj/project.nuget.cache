@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "L9n3gOviGdOmCg8Bftq7SQQqq09s2vULMC230zP9OPZzR6iRjLcWZn0dCSDQVO4AVzV2k2H9R58iNmMm8XNedQ==",
+  "dgSpecHash": "kLvOs8jnYdIS5t3UKibn6aRpgTSZ6+Q50EnuGaFubAWncW6UPmmz6TZIjS9DlUOTDcWocqMpU3CQJ3XC+sm98g==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Anderson\\Documents\\projects\\faculdade\\1-fase\\fundamentos-matematicos\\unitcredit.api\\Api.Data.Test\\Api.Data.Test.csproj",
+  "projectFilePath": "C:\\Users\\Anderson\\Documents\\projects\\faculdade\\1-fase\\fundamentos-matematicos\\unitcredit.api\\Api.Data.Test\\Api.Data.Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Anderson\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\Anderson\\.nuget\\packages\\faker.netcore\\1.0.2\\faker.netcore.1.0.2.nupkg.sha512",

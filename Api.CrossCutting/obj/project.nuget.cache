@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xoljdNm/ZGhrGuNwWDq+1zljfYZ1EFW09AJ6jV4l0TsbKoLpb3PT9xoVf0WfdaItgi0AzKt7mCRz17GYA3g8SQ==",
+  "dgSpecHash": "whMEybsvAc13C+k2IKUI8Keie+xg04GcmmzpXOyJS/ibfs5tdzMpLNAnGqXDFLYZi60niVXvYxkCvltscydRpQ==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Anderson\\Documents\\projects\\faculdade\\1-fase\\fundamentos-matematicos\\unitcredit.api\\Api.CrossCutting\\CrossCutting.csproj",
+  "projectFilePath": "C:\\Users\\Anderson\\Documents\\projects\\faculdade\\1-fase\\fundamentos-matematicos\\unitcredit.api\\Api.CrossCutting\\CrossCutting.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Anderson\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.10\\microsoft.entityframeworkcore.5.0.10.nupkg.sha512",
     "C:\\Users\\Anderson\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.10\\microsoft.entityframeworkcore.abstractions.5.0.10.nupkg.sha512",

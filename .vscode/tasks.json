@@ -36,6 +36,51 @@
                 "${workspaceFolder}/Api.Application/unitcredit.api.csproj"
             ],
             "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "Data.Tests",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "test",
+                "${workspaceFolder}/Api.Data.Test/Api.Data.Test.csproj",
+            ]
+        },
+        {
+            "label": "Service.Tests",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "test",
+                "${workspaceFolder}/Api.Service.Test/Api.Service.Test.csproj"
+            ]
+        },
+        {
+            "label": "Application.Tests",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "test",
+                "${workspaceFolder}/Api.Application.Test/Api.Application.Test.csproj"
+            ]
+        },
+        {
+            "label": "Integration.Tests",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "test",
+                "${workspaceFolder}/Api.Integration.Test/Api.Integration.Test.csproj"
+            ]
+        },
+        {
+            "label": "Test All",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "test",
+                "${workspaceFolder}/"
+            ]
         }
     ]
 }
