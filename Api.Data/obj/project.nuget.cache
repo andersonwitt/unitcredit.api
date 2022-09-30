@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gSd288jYz3j9s7oqWyeZ70fl1rrXGMhvF2Vr/f9bHMrS24rdtgR9/NuAs0B5KTj0DcdXQ7aCYcgPJ6mEJULdMQ==",
+  "dgSpecHash": "4cpj7l0NO00DiJqd1j+eTOUtn1qhsmVDhEgSTl9O8BdaSD1G4FzGgXqXRsdlT7FSddlafI+dasdaLWd5zPDqnQ==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Anderson\\Documents\\projects\\faculdade\\1-fase\\fundamentos-matematicos\\unitcredit.api\\Api.Data\\Data.csproj",
+  "projectFilePath": "C:\\Users\\Anderson\\Documents\\projects\\faculdade\\1-fase\\fundamentos-matematicos\\unitcredit.api\\Api.Data\\Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Anderson\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Anderson\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
