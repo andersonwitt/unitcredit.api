@@ -22,6 +22,14 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
+    <PackageReference Include="Faker.NETCore" Version="1.0.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.TestHost" Version="5.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Api.Data\Data.csproj" />
   </ItemGroup>
 

@@ -22,9 +22,15 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Moq" Version="4.14.7" />
+    <PackageReference Include="Faker.NETCore" Version="1.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Api.CrossCutting\CrossCutting.csproj" />
     <ProjectReference Include="..\Api.Domain\Domain.csproj" />
     <ProjectReference Include="..\Api.Application\unitcredit.api.csproj" />
+    <ProjectReference Include="..\Api.Service\Service.csproj" />
   </ItemGroup>
 
 </Project>

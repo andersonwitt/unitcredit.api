@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "0LAN1AZWWP2u3Gufu1MgosPuKwaVwjOhYWrQQRpoVFMrmZvlVrT7wAGPS4ONUHr5XjmJj9cDT9W6LPpr+6ulSQ==",
+  "dgSpecHash": "qLGwzE8VpZvfuoYFsAmswIviWWznjbTX0wQUhooYdvHT7kdZGawckFR5C66IISPGhhjzkDHhqarRJnDMkkmkOA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Anderson\\Documents\\projects\\faculdade\\1-fase\\fundamentos-matematicos\\unitcredit.api\\Api.Application\\unitcredit.api.csproj",
+  "projectFilePath": "c:\\Users\\Anderson\\Documents\\projects\\faculdade\\1-fase\\fundamentos-matematicos\\unitcredit.api\\Api.Application\\unitcredit.api.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Anderson\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\Anderson\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.0\\automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",
+    "C:\\Users\\Anderson\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Anderson\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.10\\microsoft.entityframeworkcore.5.0.10.nupkg.sha512",
     "C:\\Users\\Anderson\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.10\\microsoft.entityframeworkcore.abstractions.5.0.10.nupkg.sha512",
     "C:\\Users\\Anderson\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\5.0.10\\microsoft.entityframeworkcore.analyzers.5.0.10.nupkg.sha512",
@@ -28,6 +31,7 @@
     "C:\\Users\\Anderson\\.nuget\\packages\\system.collections.immutable\\5.0.0\\system.collections.immutable.5.0.0.nupkg.sha512",
     "C:\\Users\\Anderson\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "C:\\Users\\Anderson\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.1\\system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512",
+    "C:\\Users\\Anderson\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
     "C:\\Users\\Anderson\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.6.0\\system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512"
   ],
   "logs": []

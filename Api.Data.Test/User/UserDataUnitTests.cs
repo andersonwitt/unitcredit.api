@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Api.Data.Context;
 using Api.Data.Implementations;
+using Api.Domain.DTOs;
 using Api.Domain.Entities;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -45,6 +46,8 @@ namespace Api.Data.Test.User
 
                 await SelectAllTest();
 
+                await SelectByLoginTest();
+
                 await RemoveTest();
             }
         }
@@ -83,6 +86,20 @@ namespace Api.Data.Test.User
             var _dataSelected = await _repository.SelectAsync(_entity.Id);
 
             ObjectAsserts<UserEntity, UserEntity>(_entity, _dataSelected, new List<string>());
+        }
+
+        private async Task SelectByLoginTest()
+        {
+            var payload = new LoginPayloadDTO()
+            {
+                Password = _entity.Password,
+                StudentId = _entity.StudentId,
+            };
+
+            var _selectedByLogin = await _repository.SelectByLogin(payload);
+
+            Assert.NotNull(_selectedByLogin);
+            ObjectAsserts<UserEntity, UserEntity>(_entity, _selectedByLogin, new List<string>());
         }
 
         private async Task SelectAllTest()

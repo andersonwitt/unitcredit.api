@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Api.Data.Context;
 using Api.Domain.Entities;
-using Api.Domain.Interfaces;
+using Api.Domain.Repository;
 using Microsoft.EntityFrameworkCore;
 
 namespace Api.Data.Repository

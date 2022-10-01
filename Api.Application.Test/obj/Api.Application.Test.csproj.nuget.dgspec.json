@@ -36,6 +36,9 @@
               },
               "c:\\Users\\Anderson\\Documents\\projects\\faculdade\\1-fase\\fundamentos-matematicos\\unitcredit.api\\Api.Domain\\Domain.csproj": {
                 "projectPath": "c:\\Users\\Anderson\\Documents\\projects\\faculdade\\1-fase\\fundamentos-matematicos\\unitcredit.api\\Api.Domain\\Domain.csproj"
+              },
+              "c:\\Users\\Anderson\\Documents\\projects\\faculdade\\1-fase\\fundamentos-matematicos\\unitcredit.api\\Api.Service\\Service.csproj": {
+                "projectPath": "c:\\Users\\Anderson\\Documents\\projects\\faculdade\\1-fase\\fundamentos-matematicos\\unitcredit.api\\Api.Service\\Service.csproj"
               }
             }
           }
@@ -50,9 +53,17 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Faker.NETCore": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.1.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.14.7, )"
             },
             "coverlet.collector": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -205,6 +216,16 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -396,6 +417,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

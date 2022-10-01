@@ -122,3 +122,9 @@ C:\Users\Anderson\Documents\projects\faculdade\1-fase\fundamentos-matematicos\un
 C:\Users\Anderson\Documents\projects\faculdade\1-fase\fundamentos-matematicos\unitcredit.api\Api.Application.Test\bin\Debug\net6.0\Service.dll
 C:\Users\Anderson\Documents\projects\faculdade\1-fase\fundamentos-matematicos\unitcredit.api\Api.Application.Test\bin\Debug\net6.0\Data.pdb
 C:\Users\Anderson\Documents\projects\faculdade\1-fase\fundamentos-matematicos\unitcredit.api\Api.Application.Test\bin\Debug\net6.0\Service.pdb
+c:\Users\Anderson\Documents\projects\faculdade\1-fase\fundamentos-matematicos\unitcredit.api\Api.Application.Test\bin\Debug\net6.0\AutoMapper.dll
+c:\Users\Anderson\Documents\projects\faculdade\1-fase\fundamentos-matematicos\unitcredit.api\Api.Application.Test\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+c:\Users\Anderson\Documents\projects\faculdade\1-fase\fundamentos-matematicos\unitcredit.api\Api.Application.Test\bin\Debug\net6.0\Castle.Core.dll
+c:\Users\Anderson\Documents\projects\faculdade\1-fase\fundamentos-matematicos\unitcredit.api\Api.Application.Test\bin\Debug\net6.0\Faker.NETCore.dll
+c:\Users\Anderson\Documents\projects\faculdade\1-fase\fundamentos-matematicos\unitcredit.api\Api.Application.Test\bin\Debug\net6.0\Moq.dll
+c:\Users\Anderson\Documents\projects\faculdade\1-fase\fundamentos-matematicos\unitcredit.api\Api.Application.Test\bin\Debug\net6.0\de-DE\Faker.NETCore.resources.dll
