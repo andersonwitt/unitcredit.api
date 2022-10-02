@@ -1,6 +1,6 @@
-using Api.Domain.DTOs;
+using Domain.DTOs;
 
-namespace Api.Domain.Managers
+namespace Domain.Managers
 {
     public interface ILoginManager
     {

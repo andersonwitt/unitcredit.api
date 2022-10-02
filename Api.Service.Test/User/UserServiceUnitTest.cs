@@ -1,9 +1,9 @@
-using Api.Domain.DTOs;
-using Api.Domain.Entities;
-using Api.Domain.Repository;
-using Api.Domain.Stubs;
-using Api.Service.Services;
+using Domain.DTOs;
+using Domain.Entities;
+using Domain.Repository;
+using Domain.Stubs;
 using Moq;
+using Service.Services;
 
 namespace Api.Service.Test.User
 {

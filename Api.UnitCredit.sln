@@ -3,31 +3,28 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "unitcredit.api", "Api.Application\unitcredit.api.csproj", "{D63E9700-39E7-4741-8D3A-EE6644BBD441}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "unitcredit.api", "Api.Application\unitcredit.api.csproj", "{D63E9700-39E7-4741-8D3A-EE6644BBD441}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrossCutting", "Api.CrossCutting\CrossCutting.csproj", "{1B9D7275-3D00-47A1-B6FE-0F4CC86B7BEB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrossCutting", "Api.CrossCutting\CrossCutting.csproj", "{1B9D7275-3D00-47A1-B6FE-0F4CC86B7BEB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Api.Data\Data.csproj", "{6C631094-B67B-4A39-9346-D99A305C98B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Data", "Api.Data\Data.csproj", "{6C631094-B67B-4A39-9346-D99A305C98B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Api.Domain\Domain.csproj", "{2FE233E9-6B83-41A0-A8B0-107F2AD11B15}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Api.Domain\Domain.csproj", "{2FE233E9-6B83-41A0-A8B0-107F2AD11B15}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service", "Api.Service\Service.csproj", "{5BA67FCC-0E04-4F85-912B-52A4FBFEDDA0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Service", "Api.Service\Service.csproj", "{5BA67FCC-0E04-4F85-912B-52A4FBFEDDA0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api.Data.Test", "Api.Data.Test\Api.Data.Test.csproj", "{9BC580E4-3B13-42D9-981D-9DBE3198F80B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api.Data.Test", "Api.Data.Test\Api.Data.Test.csproj", "{9BC580E4-3B13-42D9-981D-9DBE3198F80B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api.Service.Test", "Api.Service.Test\Api.Service.Test.csproj", "{EE21705B-AEEF-4B7E-A868-DAF2EC7E50D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api.Service.Test", "Api.Service.Test\Api.Service.Test.csproj", "{EE21705B-AEEF-4B7E-A868-DAF2EC7E50D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api.Application.Test", "Api.Application.Test\Api.Application.Test.csproj", "{38C2B5EB-0A5D-4543-BB4F-1A28DC6AE750}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api.Application.Test", "Api.Application.Test\Api.Application.Test.csproj", "{38C2B5EB-0A5D-4543-BB4F-1A28DC6AE750}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api.Integration.Test", "Api.Integration.Test\Api.Integration.Test.csproj", "{17C727DA-9A4E-4016-B719-EB196A511DDF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api.Integration.Test", "Api.Integration.Test\Api.Integration.Test.csproj", "{8C6F1ECF-3D14-49A6-803E-F340093A7965}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{D63E9700-39E7-4741-8D3A-EE6644BBD441}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -62,9 +59,15 @@ Global
 		{38C2B5EB-0A5D-4543-BB4F-1A28DC6AE750}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38C2B5EB-0A5D-4543-BB4F-1A28DC6AE750}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38C2B5EB-0A5D-4543-BB4F-1A28DC6AE750}.Release|Any CPU.Build.0 = Release|Any CPU
-		{17C727DA-9A4E-4016-B719-EB196A511DDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{17C727DA-9A4E-4016-B719-EB196A511DDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{17C727DA-9A4E-4016-B719-EB196A511DDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{17C727DA-9A4E-4016-B719-EB196A511DDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C6F1ECF-3D14-49A6-803E-F340093A7965}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C6F1ECF-3D14-49A6-803E-F340093A7965}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C6F1ECF-3D14-49A6-803E-F340093A7965}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C6F1ECF-3D14-49A6-803E-F340093A7965}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1A42A361-4BAD-4A59-A952-90663728FCCF}
 	EndGlobalSection
 EndGlobal

@@ -1,9 +1,10 @@
+using Domain.DTOs;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Api.Domain.DTOs
+namespace Domain.DTOs
 {
     public class UserDTO : BaseDTO
     {

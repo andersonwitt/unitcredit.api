@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Api.Domain.Entities
+namespace Domain.Entities
 {
     public abstract class BaseEntity
     {
@@ -14,7 +14,7 @@ namespace Api.Domain.Entities
         public DateTime? CreateAt
         {
             get { return _CreateAt; }
-            set { _CreateAt = (value == null ? DateTime.UtcNow : value); }
+            set { _CreateAt = value == null ? DateTime.UtcNow : value; }
         }
         public DateTime? UpdateAt { get; set; }
     }

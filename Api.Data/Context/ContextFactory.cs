@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 
-namespace Api.Data.Context
+namespace Data.Context
 {
     public class ContextFactory : IDesignTimeDbContextFactory<UnitContext>
     {

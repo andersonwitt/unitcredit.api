@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
-using Api.Domain.DTOs;
-using Api.Domain.Managers;
+using Domain.DTOs;
+using Domain.Managers;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
-namespace Api.Application.Controllers
+namespace unitcredit.api.Controllers
 {
     [Route("api/[controller]")]
     public class LoginController : ControllerBase

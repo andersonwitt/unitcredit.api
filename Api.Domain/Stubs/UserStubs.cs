@@ -2,10 +2,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Api.Domain.DTOs;
-using Api.Domain.Entities;
+using Domain.DTOs;
+using Domain.Entities;
 
-namespace Api.Domain.Stubs
+namespace Domain.Stubs
 {
     public class UserStubs
     {

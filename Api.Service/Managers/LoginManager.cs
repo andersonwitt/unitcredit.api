@@ -2,11 +2,11 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Api.Domain.DTOs;
-using Api.Domain.Managers;
-using Api.Domain.Services;
+using Domain.DTOs;
+using Domain.Managers;
+using Domain.Services;
 
-namespace Api.Service.Managers
+namespace Service.Managers
 {
     public class LoginManager : ILoginManager
     {

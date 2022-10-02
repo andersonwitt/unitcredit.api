@@ -2,8 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Api.CrossCutting.Mappings;
 using AutoMapper;
+using CrossCutting.Mappings;
 
 namespace Api.Service.Test
 {

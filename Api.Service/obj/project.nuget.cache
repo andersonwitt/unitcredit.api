@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IcwPV1Yzd1MnWqqhqnhni9KIPgsViPnoetYUOmle6qJWpQY3Y1z1bYHx4WRJKvVPNpUD75FmJWQADMwBEu/yzA==",
+  "dgSpecHash": "Ml+o2hi6wDjZ4BadQ8N7wv5A6MO+vuj0vFlT9sEjbEBvy9OcnLQ73rrTALaSamPST1XjgZgh7yUgbB21omQGjg==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Anderson\\Documents\\projects\\faculdade\\1-fase\\fundamentos-matematicos\\unitcredit.api\\Api.Service\\Service.csproj",
+  "projectFilePath": "C:\\Users\\Anderson\\Documents\\projects\\faculdade\\1-fase\\fundamentos-matematicos\\unitcredit.api\\Api.Service\\Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Anderson\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Anderson\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

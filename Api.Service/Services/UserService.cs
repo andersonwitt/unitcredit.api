@@ -2,12 +2,12 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Api.Domain.DTOs;
-using Api.Domain.Repository;
-using Api.Domain.Services;
 using AutoMapper;
+using Domain.DTOs;
+using Domain.Repository;
+using Domain.Services;
 
-namespace Api.Service.Services
+namespace Service.Services
 {
     public class UserService : IUserService
     {

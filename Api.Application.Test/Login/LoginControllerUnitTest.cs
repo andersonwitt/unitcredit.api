@@ -1,7 +1,7 @@
-using Api.Application.Controllers;
-using Api.Domain.DTOs;
-using Api.Domain.Managers;
+using Domain.DTOs;
+using Domain.Managers;
 using Moq;
+using unitcredit.api.Controllers;
 
 namespace Api.Application.Test.Login
 {

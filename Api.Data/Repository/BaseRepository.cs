@@ -2,12 +2,12 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Api.Data.Context;
-using Api.Domain.Entities;
-using Api.Domain.Repository;
+using Data.Context;
+using Domain.Entities;
+using Domain.Repository;
 using Microsoft.EntityFrameworkCore;
 
-namespace Api.Data.Repository
+namespace Data.Repository
 {
     public class BaseRepository<T> : IRepository<T> where T : BaseEntity
     {

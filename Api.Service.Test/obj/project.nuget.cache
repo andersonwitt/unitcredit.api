@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Mbryotkwao1EAk11sG1hCjLg/HwzAr7+iL4dtl5Ap82z8YfPTA15+6e41XOW6R/Zvqg6uC21828BzWowtvqE7A==",
+  "dgSpecHash": "tzHXJeCiSrAj1LGWhsVVRJPC9oiaZqyagFsSYSnPQp2P+9T8SJfZy4LjfOTpiDJi6UBkxHx2HLJw6s6BEDFFRw==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Anderson\\Documents\\projects\\faculdade\\1-fase\\fundamentos-matematicos\\unitcredit.api\\Api.Service.Test\\Api.Service.Test.csproj",
+  "projectFilePath": "C:\\Users\\Anderson\\Documents\\projects\\faculdade\\1-fase\\fundamentos-matematicos\\unitcredit.api\\Api.Service.Test\\Api.Service.Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Anderson\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Anderson\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.0\\automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",

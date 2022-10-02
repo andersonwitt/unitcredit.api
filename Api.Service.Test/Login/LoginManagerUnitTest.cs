@@ -1,8 +1,8 @@
-using Api.Domain.DTOs;
-using Api.Domain.Services;
-using Api.Domain.Stubs;
-using Api.Service.Managers;
+using Domain.DTOs;
+using Domain.Services;
+using Domain.Stubs;
 using Moq;
+using Service.Managers;
 
 namespace Api.Service.Test.Login
 {

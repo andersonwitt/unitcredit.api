@@ -2,10 +2,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Api.Data.Context;
-using Api.Data.Implementations;
-using Api.Domain.DTOs;
-using Api.Domain.Entities;
+using Data.Context;
+using Data.Implementations;
+using Domain.DTOs;
+using Domain.Entities;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace Api.Data.Test.User

@@ -1,4 +1,4 @@
-namespace Api.Domain.DTOs
+namespace Domain.DTOs
 {
     public abstract class BaseDTO
     {

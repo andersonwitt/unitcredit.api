@@ -2,14 +2,14 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Api.Data.Context;
-using Api.Data.Repository;
-using Api.Domain.DTOs;
-using Api.Domain.Entities;
-using Api.Domain.Repository;
+using Data.Context;
+using Data.Repository;
+using Domain.DTOs;
+using Domain.Entities;
+using Domain.Repository;
 using Microsoft.EntityFrameworkCore;
 
-namespace Api.Data.Implementations
+namespace Data.Implementations
 {
     public class UserImplementation : BaseRepository<UserEntity>, IUserRepository
     {

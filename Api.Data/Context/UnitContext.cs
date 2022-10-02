@@ -2,10 +2,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Api.Domain.Entities;
+using Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace Api.Data.Context
+namespace Data.Context
 {
     public class UnitContext : DbContext
     {

@@ -1,10 +1,10 @@
-using Api.Domain.Managers;
-using Api.Domain.Services;
-using Api.Service.Managers;
-using Api.Service.Services;
+using Domain.Managers;
+using Domain.Services;
 using Microsoft.Extensions.DependencyInjection;
+using Service.Managers;
+using Service.Services;
 
-namespace Api.CrossCutting.DependencyInjection
+namespace CrossCutting.DependencyInjection
 {
     public class ConfigureService
     {

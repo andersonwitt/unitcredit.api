@@ -2,9 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Api.Domain.Entities;
+using Domain.Entities;
 
-namespace Api.Domain.Repository
+namespace Domain.Repository
 {
     public interface IRepository<T> where T : BaseEntity
     {

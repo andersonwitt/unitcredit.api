@@ -16,4 +16,8 @@
     <ProjectReference Include="..\Api.CrossCutting\CrossCutting.csproj" />
   </ItemGroup>
 
+	<ItemGroup>
+		<InternalsVisibleTo Include="${AssemblyName}.Test"/>
+	</ItemGroup>
+	
 </Project>

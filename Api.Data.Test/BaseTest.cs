@@ -1,4 +1,4 @@
-using Api.Data.Context;
+using Data.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 

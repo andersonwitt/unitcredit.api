@@ -1,6 +1,6 @@
-using Api.CrossCutting.DependencyInjection;
-using Api.CrossCutting.Mappings;
 using AutoMapper;
+using CrossCutting.DependencyInjection;
+using CrossCutting.Mappings;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -40,3 +40,5 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+
+public partial class Program { }

@@ -2,9 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Api.Domain.DTOs;
+using Domain.DTOs;
 
-namespace Api.Domain.Services
+namespace Domain.Services
 {
     public interface IUserService
     {
