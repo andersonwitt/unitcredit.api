@@ -19,7 +19,7 @@ namespace Api.Integration.Test.Login
             var resultContent = await result.Content.ReadAsStringAsync();
             var resultObj = JsonConvert.DeserializeObject<LoginResultDTO>(resultContent);
 
-            Assert.False(resultObj.IsAuthenticated);
+            Assert.True(resultObj.IsAuthenticated);
         }
     }
 }

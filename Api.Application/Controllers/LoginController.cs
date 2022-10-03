@@ -21,7 +21,7 @@ namespace unitcredit.api.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> SignIn(LoginPayloadDTO payload)
+        public async Task<IActionResult> SignIn([FromBody] LoginPayloadDTO payload)
         {
             var result = await _loginManager.SignIn(payload);
 

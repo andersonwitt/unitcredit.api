@@ -1,7 +1,4 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using Api.Data.Mappings;
 using Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
@@ -16,6 +13,8 @@ namespace Data.Context
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
+
+            modelBuilder.Entity<UserEntity>(new UsersMap("Users").Configure);
         }
     }
 }
