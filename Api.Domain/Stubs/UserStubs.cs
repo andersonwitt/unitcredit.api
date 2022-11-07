@@ -1,7 +1,4 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using Api.Domain.DTOs;
 using Domain.DTOs;
 using Domain.Entities;
 
@@ -18,6 +15,7 @@ namespace Domain.Stubs
             CreateAt = DateTime.UtcNow,
             StudentId = new Random().Next(1000, 9999).ToString(),
             UpdateAt = DateTime.UtcNow,
+            Type = Api.Domain.Enums.EnumUserType.ADMIN,
         };
 
         public static UserDTO GetUserDTO() => new UserDTO
@@ -28,6 +26,19 @@ namespace Domain.Stubs
             CreateAt = DateTime.UtcNow,
             StudentId = new Random().Next(1000, 9999).ToString(),
             UpdateAt = DateTime.UtcNow,
+            Type = Api.Domain.Enums.EnumUserType.ADMIN,
+        };
+
+        public static UserCompleteDTO GetUserCompleteDTO() => new UserCompleteDTO()
+        {
+            Id = Guid.NewGuid(),
+            Name = "A beautiful name",
+            Email = "lalaland@lala.com",
+            CreateAt = DateTime.UtcNow,
+            StudentId = new Random().Next(1000, 9999).ToString(),
+            UpdateAt = DateTime.UtcNow,
+            Type = Api.Domain.Enums.EnumUserType.ADMIN,
+            Password = "123456"
         };
 
     }

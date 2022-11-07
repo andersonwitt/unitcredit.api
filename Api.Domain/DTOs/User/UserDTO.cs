@@ -1,8 +1,4 @@
-using Domain.DTOs;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using Api.Domain.Enums;
 
 namespace Domain.DTOs
 {
@@ -11,5 +7,6 @@ namespace Domain.DTOs
         public string Name { get; set; } = "";
         public string Email { get; set; } = "";
         public string StudentId { get; set; } = "";
+        public EnumUserType Type { get; set; }
     }
 }

@@ -45,6 +45,9 @@ namespace Data.Migrations
                         .HasMaxLength(10)
                         .HasColumnType("character varying(10)");
 
+                    b.Property<int>("Type")
+                        .HasColumnType("integer");
+
                     b.Property<DateTime?>("UpdateAt")
                         .HasColumnType("timestamp without time zone");
 
@@ -54,17 +57,6 @@ namespace Data.Migrations
                         .IsUnique();
 
                     b.ToTable("Users");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = new Guid("73d55bb8-58a3-4a7c-989f-c0cb197ca4cf"),
-                            CreateAt = new DateTime(2022, 10, 3, 11, 28, 31, 985, DateTimeKind.Utc).AddTicks(9467),
-                            Email = "User",
-                            Name = "user@mail.com",
-                            Password = "123",
-                            StudentId = "123"
-                        });
                 });
 #pragma warning restore 612, 618
         }

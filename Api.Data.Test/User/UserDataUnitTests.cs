@@ -25,6 +25,7 @@ namespace Api.Data.Test.User
                 Name = Faker.Name.First(),
                 Password = new Random().Next(1000, 9999).ToString(),
                 StudentId = new Random().Next(1000, 9999).ToString(),
+                Type = Domain.Enums.EnumUserType.ADMIN,
             };
         }
 
@@ -67,6 +68,7 @@ namespace Api.Data.Test.User
             _entity.Name = Faker.Name.First();
             _entity.Password = new Random().Next(1000, 9999).ToString();
             _entity.Email = Faker.Internet.Email();
+            _entity.Type = Domain.Enums.EnumUserType.COMMERCE;
 
             var _dataUpdated = await _repository.UpdateAsync(_entity);
 

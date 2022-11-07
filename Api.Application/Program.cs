@@ -3,7 +3,11 @@ using CrossCutting.DependencyInjection;
 using CrossCutting.Mappings;
 
 var builder = WebApplication.CreateBuilder(args);
-
+builder.WebHost.UseKestrel(serverOptions =>
+{
+    serverOptions.ListenAnyIP(5000);
+    serverOptions.ListenAnyIP(5001, listenOptions => listenOptions.UseHttps());
+});
 // Add services to the container.
 
 builder.Services.AddControllers();
@@ -33,7 +37,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
+//app.UseHttpsRedirection();
 
 app.UseAuthorization();
 

@@ -21,5 +21,11 @@ namespace Api.Integration.Test
             return await client.PostAsync(url,
                 new StringContent(JsonConvert.SerializeObject(dataclass), System.Text.Encoding.UTF8, "application/json"));
         }
+
+        public async Task<HttpResponseMessage> PutJsonAsync(object dataclass, string url, HttpClient client)
+        {
+            return await client.PutAsync(url,
+                new StringContent(JsonConvert.SerializeObject(dataclass), System.Text.Encoding.UTF8, "application/json"));
+        }
     }
 }
