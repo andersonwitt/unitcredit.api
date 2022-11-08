@@ -1,4 +1,5 @@
 using Data.Context;
+using Domain.Stubs;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -50,6 +51,16 @@ namespace Api.Data.Test
             using (var context = ServiceProvider.GetService<UnitContext>())
             {
                 context.Database.EnsureCreated();
+
+                var user = UserStubs.GetUserEntity();
+                user.StudentId = "654987";
+                context.Users.Add(user);
+
+                var user2 = UserStubs.GetUserEntity();
+                user2.StudentId = "3456212";
+                context.Users.Add(user2);
+
+                context.SaveChanges();
             }
         }
 

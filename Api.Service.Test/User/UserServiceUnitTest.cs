@@ -46,7 +46,7 @@ namespace Api.Service.Test.User
             var result = await userService.GetByLogin(payload);
 
             // Then
-            ObjectAsserts<UserEntity, UserDTO>(expectedEntityResult, result, new List<string>() { "Password" });
+            ObjectAsserts<UserEntity, UserDTO>(expectedEntityResult, result, new List<string>() { "Password", "Balance" });
         }
 
         [Fact(DisplayName = "Should call get all")]
@@ -72,7 +72,7 @@ namespace Api.Service.Test.User
             // Then
             _userRepository.Verify(u => u.SelectAsync());
             Assert.Single(result);
-            ObjectAsserts<UserEntity, UserDTO>(expectedEntityResult, result.First(), new List<string>() { "Password" });
+            ObjectAsserts<UserEntity, UserDTO>(expectedEntityResult, result.First(), new List<string>() { "Password", "Balance" });
         }
 
         [Fact(DisplayName = "Should call get by Id")]
@@ -100,7 +100,7 @@ namespace Api.Service.Test.User
             // Then
             _userRepository.Verify(u => u.SelectAsync(It.IsAny<Guid>()));
             Assert.NotNull(result);
-            ObjectAsserts<UserEntity, UserDTO>(expectedEntityResult, result, new List<string>() { "Password" });
+            ObjectAsserts<UserEntity, UserDTO>(expectedEntityResult, result, new List<string>() { "Password", "Balance" });
         }
 
         [Fact(DisplayName = "Should call insert to add new user passing the right params")]
@@ -126,7 +126,7 @@ namespace Api.Service.Test.User
             // Then
             _userRepository.Verify(u => u.InsertAsync(It.IsAny<UserEntity>()));
 
-            ObjectAsserts<UserCompleteDTO, UserDTO>(expectedDTO, result, new List<string>() { "Password" });
+            ObjectAsserts<UserCompleteDTO, UserDTO>(expectedDTO, result, new List<string>() { "Password", "Balance" });
         }
 
         [Fact(DisplayName = "Should call put to update an user passing the right params")]
@@ -152,7 +152,7 @@ namespace Api.Service.Test.User
             // Then
             _userRepository.Verify(u => u.UpdateAsync(It.IsAny<UserEntity>()));
 
-            ObjectAsserts<UserCompleteDTO, UserDTO>(expectedDTO, result, new List<string>() { "Password" });
+            ObjectAsserts<UserCompleteDTO, UserDTO>(expectedDTO, result, new List<string>() { "Password", "Balance" });
         }
 
         [Fact(DisplayName = "Should call delete to remove an user passing the right params")]

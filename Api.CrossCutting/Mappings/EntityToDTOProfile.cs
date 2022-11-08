@@ -1,8 +1,5 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Api.Domain.DTOs;
+using Api.Domain.Entities;
 using AutoMapper;
 using Domain.DTOs;
 using Domain.Entities;
@@ -20,6 +17,9 @@ namespace CrossCutting.Mappings
                 .ReverseMap();
 
             CreateMap<UserDTO, UserCompleteDTO>()
+                .ReverseMap();
+
+            CreateMap<TransactionDTO, TransactionEntity>()
                 .ReverseMap();
         }
     }

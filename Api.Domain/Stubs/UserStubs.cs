@@ -16,6 +16,7 @@ namespace Domain.Stubs
             StudentId = new Random().Next(1000, 9999).ToString(),
             UpdateAt = DateTime.UtcNow,
             Type = Api.Domain.Enums.EnumUserType.ADMIN,
+            Balance = 15m,
         };
 
         public static UserDTO GetUserDTO() => new UserDTO
@@ -38,7 +39,8 @@ namespace Domain.Stubs
             StudentId = new Random().Next(1000, 9999).ToString(),
             UpdateAt = DateTime.UtcNow,
             Type = Api.Domain.Enums.EnumUserType.ADMIN,
-            Password = "123456"
+            Password = "123456",
+            Balance = 15m,
         };
 
     }

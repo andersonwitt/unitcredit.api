@@ -1,3 +1,5 @@
+using Api.Data.Implementations;
+using Api.Domain.Repository;
 using Data.Context;
 using Data.Implementations;
 using Data.Repository;
@@ -13,6 +15,7 @@ namespace CrossCutting.DependencyInjection
         {
             serviceCollection.AddScoped(typeof(IRepository<>), typeof(BaseRepository<>));
             serviceCollection.AddScoped<IUserRepository, UserImplementation>();
+            serviceCollection.AddScoped<ITransactionRepository, TransactionImplementation>();
 
             serviceCollection.AddDbContext<UnitContext>(options =>
                 options.UseNpgsql(Environment.GetEnvironmentVariable("DB_CONNECTION"))

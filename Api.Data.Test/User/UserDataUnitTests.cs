@@ -1,7 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Data.Context;
 using Data.Implementations;
 using Domain.DTOs;
@@ -108,7 +104,7 @@ namespace Api.Data.Test.User
         {
             var _allData = await _repository.SelectAsync();
             Assert.NotEmpty(_allData);
-            Assert.False(_allData.Count() > 1);
+            Assert.False(_allData.Count() > 3);
         }
 
         private async Task RemoveTest()
