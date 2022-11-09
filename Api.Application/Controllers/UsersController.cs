@@ -23,7 +23,7 @@ namespace Api.Application.Controllers
         }
 
         [HttpGet]
-        [Route("{id}", Name = "GetWithId")]
+        [Route("{id}", Name = "GetUserWithId")]
         public async Task<IActionResult> GetUser(Guid id)
         {
             var result = await _userService.Get(id);
@@ -38,7 +38,7 @@ namespace Api.Application.Controllers
 
             if (result == null) return BadRequest();
 
-            return Created(new Uri(Url.Link("GetWithId", new { id = result.Id })), result);
+            return Created(new Uri(Url.Link("GetUserWithId", new { id = result.Id })), result);
         }
 
         [HttpPut]

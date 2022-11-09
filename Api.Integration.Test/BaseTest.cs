@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc.Testing;
+﻿using Domain.DTOs;
+using Domain.Stubs;
+using Microsoft.AspNetCore.Mvc.Testing;
 using Newtonsoft.Json;
 
 
@@ -15,6 +17,17 @@ namespace Api.Integration.Test
             var api = new WebApplicationFactory<Program>();
 
             Client = api.CreateClient();
+        }
+
+        public async Task<UserDTO> InsertAnUser()
+        {
+            var payload = UserStubs.GetUserCompleteDTO();
+
+            var result = await PostJsonAsync(payload, "/api/users", Client);
+            var resultContent = await result.Content.ReadAsStringAsync();
+            var resultObj = JsonConvert.DeserializeObject<UserDTO>(resultContent);
+
+            return resultObj;
         }
         public async Task<HttpResponseMessage> PostJsonAsync(object dataclass, string url, HttpClient client)
         {

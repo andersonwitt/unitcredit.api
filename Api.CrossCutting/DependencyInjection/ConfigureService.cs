@@ -1,3 +1,5 @@
+using Api.Domain.Services;
+using Api.Service.Services;
 using Domain.Managers;
 using Domain.Services;
 using Microsoft.Extensions.DependencyInjection;
@@ -12,6 +14,7 @@ namespace CrossCutting.DependencyInjection
         {
             serviceCollection.AddScoped<IUserService, UserService>();
             serviceCollection.AddScoped<ILoginManager, LoginManager>();
+            serviceCollection.AddScoped<ITransactionService, TransactionService>();
         }
     }
 }
