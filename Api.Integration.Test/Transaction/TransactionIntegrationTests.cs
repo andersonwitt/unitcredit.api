@@ -38,6 +38,7 @@ namespace Api.Integration.Test.Transaction
             var resultObj = JsonConvert.DeserializeObject<TransactionDTO>(resultContent);
 
             Assert.NotNull(resultObj);
+            Assert.Equal(transactionId, resultObj.Id);
         }
 
 
@@ -55,6 +56,7 @@ namespace Api.Integration.Test.Transaction
             var resultObj = JsonConvert.DeserializeObject<TransactionDTO>(resultContent);
 
             Assert.NotNull(resultObj);
+            Assert.True(payload.Id != default(Guid));
 
             return resultObj;
         }

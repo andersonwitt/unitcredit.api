@@ -128,3 +128,10 @@ c:\Users\Anderson\Documents\projects\faculdade\1-fase\fundamentos-matematicos\un
 c:\Users\Anderson\Documents\projects\faculdade\1-fase\fundamentos-matematicos\unitcredit.api\Api.Application.Test\bin\Debug\net6.0\Faker.NETCore.dll
 c:\Users\Anderson\Documents\projects\faculdade\1-fase\fundamentos-matematicos\unitcredit.api\Api.Application.Test\bin\Debug\net6.0\Moq.dll
 c:\Users\Anderson\Documents\projects\faculdade\1-fase\fundamentos-matematicos\unitcredit.api\Api.Application.Test\bin\Debug\net6.0\de-DE\Faker.NETCore.resources.dll
+C:\Users\Anderson\Documents\projects\faculdade\1-fase\fundamentos-matematicos\unitcredit.api\Api.Application.Test\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Anderson\Documents\projects\faculdade\1-fase\fundamentos-matematicos\unitcredit.api\Api.Application.Test\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Anderson\Documents\projects\faculdade\1-fase\fundamentos-matematicos\unitcredit.api\Api.Application.Test\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Anderson\Documents\projects\faculdade\1-fase\fundamentos-matematicos\unitcredit.api\Api.Application.Test\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Anderson\Documents\projects\faculdade\1-fase\fundamentos-matematicos\unitcredit.api\Api.Application.Test\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Anderson\Documents\projects\faculdade\1-fase\fundamentos-matematicos\unitcredit.api\Api.Application.Test\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Anderson\Documents\projects\faculdade\1-fase\fundamentos-matematicos\unitcredit.api\Api.Application.Test\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll

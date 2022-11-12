@@ -1,10 +1,12 @@
 using Api.Domain.DTOs;
 using Domain.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Api.Application.Controllers
 {
     [Route("api/[controller]")]
+    [Authorize("Bearer")]
     public class UsersController : ControllerBase
     {
         private readonly IUserService _userService;

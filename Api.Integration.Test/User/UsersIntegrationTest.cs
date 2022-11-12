@@ -38,6 +38,7 @@ namespace Api.Integration.Test.User
             var resultObj = JsonConvert.DeserializeObject<UserDTO>(resultContent);
 
             Assert.NotNull(resultObj);
+            Assert.Equal(userId, resultObj.Id);
         }
 
 
@@ -50,6 +51,7 @@ namespace Api.Integration.Test.User
             var resultObj = JsonConvert.DeserializeObject<UserDTO>(resultContent);
 
             Assert.NotNull(resultObj);
+            Assert.Equal(payload.StudentId, resultObj.StudentId);
 
             return resultObj;
         }

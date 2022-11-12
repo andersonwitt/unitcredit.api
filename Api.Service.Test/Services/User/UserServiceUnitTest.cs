@@ -100,7 +100,7 @@ namespace Api.Service.Test.User
             // Then
             _userRepository.Verify(u => u.SelectAsync(It.IsAny<Guid>()));
             Assert.NotNull(result);
-            ObjectAsserts<UserEntity, UserDTO>(expectedEntityResult, result, new List<string>() { "Password", "Balance" });
+            ObjectAsserts<UserEntity, UserCompleteDTO>(expectedEntityResult, result, new List<string>() { "Password", "Balance" });
         }
 
         [Fact(DisplayName = "Should call insert to add new user passing the right params")]

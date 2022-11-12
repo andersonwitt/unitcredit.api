@@ -45,7 +45,7 @@ namespace Api.Application.Test.User
 
             _mockUserService
                 .Setup(u => u.Get(It.IsAny<Guid>()))
-                .ReturnsAsync(new UserDTO());
+                .ReturnsAsync(new UserCompleteDTO());
 
             var controller = new UsersController(_mockUserService.Object);
 

@@ -11,7 +11,7 @@ namespace Domain.Services
     {
         Task<UserDTO> GetByLogin(LoginPayloadDTO payload);
         Task<List<UserDTO>> Get();
-        Task<UserDTO> Get(Guid id);
+        Task<UserCompleteDTO> Get(Guid id);
         Task<UserDTO?> Post(UserCompleteDTO payload);
         Task<UserDTO?> Put(UserCompleteDTO payload);
         Task<bool> Delete(Guid id);

@@ -41,11 +41,15 @@ namespace Service.Services
             return _mapper.Map<List<UserDTO>>(result);
         }
 
-        public async Task<UserDTO> Get(Guid id)
+        public async Task<UserCompleteDTO> Get(Guid id)
         {
             var result = await _userRepository.SelectAsync(id);
 
-            return _mapper.Map<UserDTO>(result);
+            var dto = _mapper.Map<UserCompleteDTO>(result);
+
+            dto.Password = "";
+
+            return dto;
         }
 
         public async Task<UserDTO?> Post(UserCompleteDTO payload)

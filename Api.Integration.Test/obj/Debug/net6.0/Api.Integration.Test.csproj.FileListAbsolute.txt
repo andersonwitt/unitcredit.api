@@ -421,3 +421,10 @@ c:\Users\Anderson\Documents\projects\faculdade\1-fase\fundamentos-matematicos\un
 c:\Users\Anderson\Documents\projects\faculdade\1-fase\fundamentos-matematicos\unitcredit.api\Api.Integration.Test\bin\Debug\net6.0\xunit.assert.dll
 c:\Users\Anderson\Documents\projects\faculdade\1-fase\fundamentos-matematicos\unitcredit.api\Api.Integration.Test\bin\Debug\net6.0\xunit.core.dll
 c:\Users\Anderson\Documents\projects\faculdade\1-fase\fundamentos-matematicos\unitcredit.api\Api.Integration.Test\bin\Debug\net6.0\xunit.execution.dotnet.dll
+C:\Users\Anderson\Documents\projects\faculdade\1-fase\fundamentos-matematicos\unitcredit.api\Api.Integration.Test\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Anderson\Documents\projects\faculdade\1-fase\fundamentos-matematicos\unitcredit.api\Api.Integration.Test\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Anderson\Documents\projects\faculdade\1-fase\fundamentos-matematicos\unitcredit.api\Api.Integration.Test\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Anderson\Documents\projects\faculdade\1-fase\fundamentos-matematicos\unitcredit.api\Api.Integration.Test\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Anderson\Documents\projects\faculdade\1-fase\fundamentos-matematicos\unitcredit.api\Api.Integration.Test\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Anderson\Documents\projects\faculdade\1-fase\fundamentos-matematicos\unitcredit.api\Api.Integration.Test\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Anderson\Documents\projects\faculdade\1-fase\fundamentos-matematicos\unitcredit.api\Api.Integration.Test\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll

@@ -40,3 +40,11 @@ C:\Users\Anderson\Documents\projects\faculdade\1-fase\fundamentos-matematicos\un
 C:\Users\Anderson\Documents\projects\faculdade\1-fase\fundamentos-matematicos\unitcredit.api\Api.Application\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 C:\Users\Anderson\Documents\projects\faculdade\1-fase\fundamentos-matematicos\unitcredit.api\Api.Application\bin\Debug\net6.0\AutoMapper.dll
 C:\Users\Anderson\Documents\projects\faculdade\1-fase\fundamentos-matematicos\unitcredit.api\Api.Application\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Anderson\Documents\projects\faculdade\1-fase\fundamentos-matematicos\unitcredit.api\Api.Application\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Anderson\Documents\projects\faculdade\1-fase\fundamentos-matematicos\unitcredit.api\Api.Application\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Anderson\Documents\projects\faculdade\1-fase\fundamentos-matematicos\unitcredit.api\Api.Application\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Anderson\Documents\projects\faculdade\1-fase\fundamentos-matematicos\unitcredit.api\Api.Application\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Anderson\Documents\projects\faculdade\1-fase\fundamentos-matematicos\unitcredit.api\Api.Application\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Anderson\Documents\projects\faculdade\1-fase\fundamentos-matematicos\unitcredit.api\Api.Application\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Anderson\Documents\projects\faculdade\1-fase\fundamentos-matematicos\unitcredit.api\Api.Application\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Anderson\Documents\projects\faculdade\1-fase\fundamentos-matematicos\unitcredit.api\Api.Application\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
