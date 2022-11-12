@@ -8,11 +8,13 @@ using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
-builder.WebHost.UseKestrel(serverOptions =>
-{
-    serverOptions.ListenAnyIP(5000);
-    serverOptions.ListenAnyIP(5001, listenOptions => listenOptions.UseHttps());
-});
+// builder.WebHost.UseKestrel(serverOptions =>
+// {
+//     //serverOptions.ListenAnyIP(5000);
+//     serverOptions.ListenAnyIP(Convert.ToInt32(Environment.GetEnvironmentVariable("PORT")));
+//     //serverOptions.ListenAnyIP(80);
+//     //serverOptions.ListenAnyIP(5001, listenOptions => listenOptions.UseHttps());
+// });
 // Add services to the container.
 
 builder.Services.AddControllers();
@@ -79,11 +81,11 @@ builder.Services.AddSwaggerGen(c =>
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
+//if (app.Environment.IsDevelopment())
+//{
     app.UseSwagger();
     app.UseSwaggerUI();
-}
+//}
 
 //app.UseHttpsRedirection();
 

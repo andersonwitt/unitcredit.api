@@ -21,6 +21,7 @@
       },
       "env": {
         "ASPNETCORE_ENVIRONMENT": "Development",
+        //"DB_CONNECTION": "Server=localhost;Port=5432;User Id=postgres;Password=root;Database=unitdb;",
         "DB_CONNECTION": "Server=localhost;Port=5432;User Id=postgres;Password=root;Database=unitdb;",
         "PassKey": "@Km@1sN3xt",
         "Key": "dd%88*377f6d8fE$$E$FdddFF33fssDG^13",
