@@ -8,14 +8,16 @@ using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
-// builder.WebHost.UseKestrel(serverOptions =>
-// {
-//     //serverOptions.ListenAnyIP(5000);
-//     serverOptions.ListenAnyIP(Convert.ToInt32(Environment.GetEnvironmentVariable("PORT")));
-//     //serverOptions.ListenAnyIP(80);
-//     //serverOptions.ListenAnyIP(5001, listenOptions => listenOptions.UseHttps());
-// });
-// Add services to the container.
+if (Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT") == "Development")
+{
+
+    builder.WebHost.UseKestrel(serverOptions =>
+    {
+        serverOptions.ListenAnyIP(5000);
+        //serverOptions.ListenAnyIP(80);
+        //serverOptions.ListenAnyIP(5001, listenOptions => listenOptions.UseHttps());
+    });
+}
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -83,8 +85,8 @@ var app = builder.Build();
 // Configure the HTTP request pipeline.
 //if (app.Environment.IsDevelopment())
 //{
-    app.UseSwagger();
-    app.UseSwaggerUI();
+app.UseSwagger();
+app.UseSwaggerUI();
 //}
 
 //app.UseHttpsRedirection();

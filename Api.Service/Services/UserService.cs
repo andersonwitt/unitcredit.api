@@ -47,8 +47,6 @@ namespace Service.Services
 
             var dto = _mapper.Map<UserCompleteDTO>(result);
 
-            dto.Password = "";
-
             return dto;
         }
 

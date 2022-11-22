@@ -21,13 +21,14 @@ namespace Api.Service.Test.Managers
         }
 
         [Theory(DisplayName = "Should call transfer to user")]
-        [InlineData((int)EnumTransactionType.Transfer, 135, "", true, 1, 1)]
-        [InlineData((int)EnumTransactionType.SaleOrPayment, 135, "", true, 1, 1)]
-        [InlineData((int)EnumTransactionType.Credit, 135, "", true, 1, 0)]
-        [InlineData((int)EnumTransactionType.Transfer, 20, "Saldo insuficiente!", false, 0, 0)]
-        [InlineData((int)EnumTransactionType.SaleOrPayment, 20, "Saldo insuficiente!", false, 0, 0)]
+        [InlineData((int)EnumUserType.COMMERCE, 135, "", true, 1, 1)]
+        [InlineData((int)EnumUserType.STUDENT, 135, "", true, 1, 1)]
+        [InlineData((int)EnumUserType.TEACHER, 135, "", true, 1, 1)]
+        [InlineData((int)EnumUserType.ADMIN, 135, "", true, 1, 0)]
+        [InlineData((int)EnumUserType.COMMERCE, 20, "Saldo insuficiente!", false, 0, 0)]
+        [InlineData((int)EnumUserType.COMMERCE, 20, "Saldo insuficiente!", false, 0, 0)]
         public async void ShouldCallTransferToUser(
-            int transactionType,
+            int userType,
             decimal balance,
             string expectedMessage,
             bool expectedIsValid,
@@ -38,7 +39,8 @@ namespace Api.Service.Test.Managers
             var expectedGetUser1 = new UserCompleteDTO
             {
                 Id = Guid.NewGuid(),
-                Balance = balance
+                Balance = balance,
+                Type = (EnumUserType)userType
             };
 
             var expectedGetUser2 = new UserCompleteDTO
@@ -51,7 +53,7 @@ namespace Api.Service.Test.Managers
                 Total = 50m,
                 FromId = expectedGetUser1.Id,
                 ToId = expectedGetUser2.Id,
-                TransactionType = (EnumTransactionType)transactionType
+                TransactionType = EnumTransactionType.Credit
             };
 
             _userServiceMock = new Mock<IUserService>();

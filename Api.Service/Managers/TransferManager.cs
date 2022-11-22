@@ -29,9 +29,9 @@ namespace Api.Service.Managers
             {
                 var from = await _userService.Get(payload.FromId);
                 var to = await _userService.Get(payload.ToId);
-                bool isNotCreditTransaction = payload.TransactionType != Domain.Enums.EnumTransactionType.Credit;
+                bool isNotAdminUser = from.Type != Domain.Enums.EnumUserType.ADMIN;
 
-                if (isNotCreditTransaction)
+                if (isNotAdminUser)
                 {
                     if (from.Balance < payload.Total)
                     {
@@ -49,7 +49,7 @@ namespace Api.Service.Managers
                     Total = payload.Total,
                 });
 
-                if (isNotCreditTransaction)
+                if (isNotAdminUser)
                 {
                     await _userService.Put(from);
                 }

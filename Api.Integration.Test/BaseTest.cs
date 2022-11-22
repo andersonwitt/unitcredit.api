@@ -15,6 +15,7 @@ namespace Api.Integration.Test
         {
             Environment.SetEnvironmentVariable("ASPNETCORE_ENVIRONMENT", "Development");
             Environment.SetEnvironmentVariable("DB_CONNECTION", "Server=localhost;Port=5432;User Id=postgres;Password=root;Database=unitdb;");
+            //Environment.SetEnvironmentVariable("DB_CONNECTION", "Server=ec2-54-174-31-7.compute-1.amazonaws.com;Port=5432;User Id=kcunzosvtnujsg;Password=5e63f8fa70728874154585c3a05711c0a64a21a42d44e7f07e56e2730d383dd4;Database=d5t47vnnron29e;Sslmode=Require;Trust Server Certificate=true;");
             Environment.SetEnvironmentVariable("Key", "86F7E437FAA5A7FCE15D1DDCB9EAEAEA377667B8");
             Environment.SetEnvironmentVariable("PassKey", "@Km@1sN3xt");
             Environment.SetEnvironmentVariable("Audience", "KmaisNextAud");
