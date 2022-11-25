@@ -50,7 +50,8 @@ namespace Service.Managers
                 AccessToken = token,
                 UserName = user.StudentId,
                 Name = user.Name,
-                Message = "Usuário logado com sucesso"
+                Message = "Usuário logado com sucesso",
+                UserId = user.Id.ToString(),
             };
         }
 

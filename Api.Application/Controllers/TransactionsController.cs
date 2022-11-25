@@ -33,6 +33,15 @@ namespace Api.Application.Controllers
             return Ok(result);
         }
 
+        [HttpGet]
+        [Route("/api/Transactions/User/{id}")]
+        public async Task<IActionResult> GetAllByUser(Guid id)
+        {
+            var result = await _transactionService.GetByUserId(id);
+
+            return Ok(result);
+        }
+
         [HttpPost]
         public async Task<IActionResult> Post([FromBody] TransactionDTO payload)
         {
